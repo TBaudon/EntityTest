@@ -5,6 +5,10 @@
   "bitmapsToLoad" : [
     "assets/bitmaps/shipBlue_manned.png"
   ] ,
+  "scriptsToLoad" : [
+    "assets/scripts/Test.hx",
+    "assets/scripts/Testo.hx"
+  ],
   "entities" : [
     {
       "name" : "a",
@@ -27,7 +31,13 @@
           "params" : [
             [
               {
-                "behaviour" : "behaviours.Test",
+                "behaviour" : "assets/scripts/Test.hx",
+                "params" : {
+                  "color" : 245
+                }
+              },
+              {
+                "behaviour" : "assets/scripts/Testo.hx",
                 "params" : {
                   "color" : 245
                 }

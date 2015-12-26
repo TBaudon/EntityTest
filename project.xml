@@ -6,13 +6,11 @@
 
 	<source path="." />
 
-	<window background="#62367d" />
+	<window background="#62367d" fps="60" />
 
 	<haxelib name="radgames" />
 
 	<assets path="assets" />
 	<assets path="config" />
-
-	<haxeflag name="--macro include('behaviours', true)" />
 
 </project>
