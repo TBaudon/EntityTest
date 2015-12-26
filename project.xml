@@ -13,4 +13,6 @@
 	<assets path="assets" />
 	<assets path="config" />
 
+	<haxeflag name="--macro include('behaviours', true)" />
+
 </project>
