@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
-	
+
 	<meta title="EntityTest" package="com.sample.entitytest" version="1.0.0" company="Company Name" />
-	<app main="Main" path="Export" file="EntityTest" />
-	
-	<source path="Source" />
-	
-	<haxelib name="openfl" />
-	
-	<assets path="Assets" rename="assets" />
-	
+	<app main="fr.radstar.Game" path="Export" file="EntityTest" />
+
+	<source path="." />
+
+	<window background="#62367d" />
+
+	<haxelib name="radgames" />
+
+	<assets path="assets" />
+	<assets path="config" />
+
 </project>

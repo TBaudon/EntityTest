@@ -1,0 +1,28 @@
+{
+  "soundsToLoad" : [
+    "assets/sounds/music/Pixelland.ogg"
+  ] ,
+  "bitmapsToLoad" : [
+    "assets/bitmaps/shipBlue_manned.png"
+  ] ,
+  "entities" : [
+    {
+      "name" : "a",
+      "components" : [
+        {
+          "className" : "fr.radstar.engine.components.Transform",
+          "params" : [
+            "100.0",
+            "100.0"
+          ]
+        },
+        {
+          "className" : "fr.radstar.engine.components.DisplayView",
+          "params" : [
+            "assets/bitmaps/shipBlue_manned.png"
+          ]
+        }
+      ]
+    }
+  ]
+}
