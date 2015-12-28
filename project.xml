@@ -11,6 +11,5 @@
 	<haxelib name="radgames" />
 
 	<assets path="assets" />
-	<assets path="config" />
 
 </project>

@@ -9,6 +9,9 @@
     "assets/scripts/Test.hx",
     "assets/scripts/Testo.hx"
   ],
+  "prefabsToLoad" : [
+	"assets/prefabs/a.json"
+  ],
   "entities" : [
     {
       "name" : "a",
@@ -18,6 +21,11 @@
           "params" : [
             100.0,
             100.0
+          ]
+        },
+		{
+          "className" : "fr.radstar.engine.components.Move",
+          "params" : [
           ]
         },
         {
@@ -32,12 +40,6 @@
             [
               {
                 "behaviour" : "assets/scripts/Test.hx",
-                "params" : {
-                  "color" : 245
-                }
-              },
-              {
-                "behaviour" : "assets/scripts/Testo.hx",
                 "params" : {
                   "color" : 245
                 }
