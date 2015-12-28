@@ -24,6 +24,11 @@
           ]
         },
 		{
+			"className" : "behaviours.Test",
+			"params" : [
+			]
+		},
+		{
           "className" : "fr.radstar.engine.components.Move",
           "params" : [
           ]
@@ -32,19 +37,6 @@
           "className" : "fr.radstar.engine.components.DisplayView",
           "params" : [
             "assets/bitmaps/shipBlue_manned.png"
-          ]
-        },
-        {
-          "className" : "fr.radstar.engine.components.Behaviours",
-          "params" : [
-            [
-              {
-                "behaviour" : "assets/scripts/Test.hx",
-                "params" : {
-                  "color" : 245
-                }
-              }
-            ]
           ]
         }
       ]

@@ -4,7 +4,8 @@
 	<meta title="EntityTest" package="com.sample.entitytest" version="1.0.0" company="Company Name" />
 	<app main="fr.radstar.Game" path="Export" file="EntityTest" />
 
-	<source path="." />
+	<source path="sources" />
+	<haxeflag name="--macro include('behaviours', true)" />
 
 	<window background="#62367d" fps="60" />
 

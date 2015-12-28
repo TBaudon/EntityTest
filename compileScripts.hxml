@@ -1,0 +1,9 @@
+-cp sources
+-lib radgames
+-lib thx.core
+-lib edge
+
+-D haxe3
+
+-js scripts.js
+--macro include("behaviours", true)

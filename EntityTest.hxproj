@@ -23,7 +23,7 @@
     <class path="C:\outils\HaxeToolkit\haxe\lib\edge\git\src" />
     <class path="C:\outils\HaxeToolkit\haxe\lib\thx,core\0,39,0\src" />
     <class path="C:\outils\HaxeToolkit\haxe\lib\hscript\2,0,5" />
-    <class path="." />
+    <class path="sources" />
     <class path="Export\html5\haxe" />
   </classpaths>
   <!-- Build options -->
@@ -33,7 +33,7 @@
     <option noInlineOnDebug="False" />
     <option mainClass="ApplicationMain" />
     <option enabledebug="False" />
-    <option additional="--macro openfl.Lib.includeExterns()&#xA;--remap flash:openfl&#xA;--macro include('fr.radstar.engine.components', true)&#xA;--macro allowPackage(&quot;flash&quot;)" />
+    <option additional="--macro include('behaviours', true)&#xA;--macro openfl.Lib.includeExterns()&#xA;--remap flash:openfl&#xA;--macro include('fr.radstar.engine.components', true)&#xA;--macro allowPackage(&quot;flash&quot;)" />
   </build>
   <!-- haxelib libraries -->
   <haxelib>
