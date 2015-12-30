@@ -3,8 +3,8 @@
 		{
 			"className" : "fr.radstar.engine.components.Transform",
 			"params" : [
-				100.0,
-				100.0
+				0.0,
+				0.0
 			]
 		},
 		{
@@ -13,14 +13,10 @@
 			]
 		},
 		{
-			"className" : "fr.radstar.engine.components.Move",
-			"params" : [
-			]
-		},
-		{
 			"className" : "fr.radstar.engine.components.DisplayView",
 			"params" : [
-				"assets/bitmaps/shipBlue_manned.png"
+				"assets/bitmaps/shipBlue_manned.png",
+				"world"
 			]
 		}
     ]

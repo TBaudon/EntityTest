@@ -6,21 +6,34 @@
 		"assets/bitmaps/shipBlue_manned.png"
 	],
 	"prefabsToLoad" : [
-		"assets/prefabs/a.json"
+		"assets/prefabs/Ship.json"
 	],
 		"entities" : [
-		{
-			"name" : "a",
-			"prefab" : "assets/prefabs/a.json",
-			"components" : [
-				{
-					"className" : "fr.radstar.engine.components.Transform",
-					"params" : [
-						800.0,
-						300.0
-					]
-				}
-			]
-		}
-	]
+			{
+				"name" : "shipA",
+				"prefab" : "assets/prefabs/Ship.json",
+				"components" : [
+					{
+						"className" : "fr.radstar.engine.components.Transform",
+						"params" : [
+							200.0,
+							100.0
+						]
+					}
+				]
+			},
+			{
+				"name" : "shipB",
+				"prefab" : "assets/prefabs/Ship.json",
+				"components" : [
+					{
+						"className" : "fr.radstar.engine.components.Transform",
+						"params" : [
+							500.0,
+							300.0
+						]
+					}
+				]
+			}
+		]
 }
