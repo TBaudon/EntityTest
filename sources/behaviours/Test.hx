@@ -16,16 +16,24 @@ class Test extends Behaviour{
 	var i : Float;
 	
 	override public function init() : Void {
-		startX = Math.random() * 800;
-		startY = Math.random() * 600;
-		i = Math.random() * 1000;
 		transform = getComponent(Transform);
+		
+		startX = transform.x;
+		startY = transform.y;
+		
+		updateTransform();
+		
+		i = Math.random() * 1000;
 	}
 	
 	override public function update() : Void {
 		i += 0.01;
+		updateTransform();
+	}
+	
+	function updateTransform() {
 		transform.x = startX + Math.sin(i) * 200;
-		transform.y = startY + Math.sin(i*5) * 30;
+		transform.y = startY + Math.sin(i * 5) * 30;
 	}
 	
 }

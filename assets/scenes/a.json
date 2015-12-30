@@ -1,45 +1,26 @@
 {
-  "soundsToLoad" : [
-    "assets/sounds/music/Pixelland.ogg"
-  ] ,
-  "bitmapsToLoad" : [
-    "assets/bitmaps/shipBlue_manned.png"
-  ] ,
-  "scriptsToLoad" : [
-    "assets/scripts/Test.hx",
-    "assets/scripts/Testo.hx"
-  ],
-  "prefabsToLoad" : [
-	"assets/prefabs/a.json"
-  ],
-  "entities" : [
-    {
-      "name" : "a",
-      "components" : [
-        {
-          "className" : "fr.radstar.engine.components.Transform",
-          "params" : [
-            100.0,
-            100.0
-          ]
-        },
+	"soundsToLoad" : [
+		"assets/sounds/music/Pixelland.ogg"
+	] ,
+	"bitmapsToLoad" : [
+		"assets/bitmaps/shipBlue_manned.png"
+	],
+	"prefabsToLoad" : [
+		"assets/prefabs/a.json"
+	],
+		"entities" : [
 		{
-			"className" : "behaviours.Test",
-			"params" : [
+			"name" : "a",
+			"prefab" : "assets/prefabs/a.json",
+			"components" : [
+				{
+					"className" : "fr.radstar.engine.components.Transform",
+					"params" : [
+						800.0,
+						300.0
+					]
+				}
 			]
-		},
-		{
-          "className" : "fr.radstar.engine.components.Move",
-          "params" : [
-          ]
-        },
-        {
-          "className" : "fr.radstar.engine.components.DisplayView",
-          "params" : [
-            "assets/bitmaps/shipBlue_manned.png"
-          ]
-        }
-      ]
-    }
-  ]
+		}
+	]
 }

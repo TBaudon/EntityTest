@@ -17,12 +17,12 @@
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
     <class path="C:\workspace\haxelib-dev\radgames" />
-    <class path="C:\outils\HaxeToolkit\haxe\lib\openfl\3,5,3" />
-    <class path="C:\outils\HaxeToolkit\haxe\lib\lime\2,8,2" />
-    <class path="C:\outils\HaxeToolkit\haxe\lib\actuate\1,8,6" />
-    <class path="C:\outils\HaxeToolkit\haxe\lib\edge\git\src" />
-    <class path="C:\outils\HaxeToolkit\haxe\lib\thx,core\0,39,0\src" />
-    <class path="C:\outils\HaxeToolkit\haxe\lib\hscript\2,0,5" />
+    <class path="C:\outils\HaxeToolkit\haxelibs\openfl\3,5,3" />
+    <class path="C:\outils\HaxeToolkit\haxelibs\lime\2,8,2" />
+    <class path="C:\outils\HaxeToolkit\haxelibs\actuate\1,8,6" />
+    <class path="C:\outils\HaxeToolkit\haxelibs\edge\git\src" />
+    <class path="C:\outils\HaxeToolkit\haxelibs\thx,core\0,39,0\src" />
+    <class path="C:\outils\HaxeToolkit\haxelibs\hscript\2,0,5" />
     <class path="sources" />
     <class path="Export\html5\haxe" />
   </classpaths>
