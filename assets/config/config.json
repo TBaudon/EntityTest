@@ -1,3 +1,9 @@
 {
-  "firstScene" : "assets/scenes/a.json"
+  "firstScene" : "assets/scenes/a.json",
+  "systems" : [
+		{
+			"classPath" : "fr.radstar.engine.systems.DisplayListRenderer",
+			"type" : "render"
+		}
+	]
 }
