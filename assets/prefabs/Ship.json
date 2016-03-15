@@ -1,23 +1,26 @@
-{     
+{    
+	"name" : "Ship",
+	"assets" : [
+		{
+			"type" : "spritesheet",
+			"name" : "Ship",
+			"path" : "assets/spritesheets/square_outline"
+		}
+	],
 	"components" : [
 		{
-			"className" : "fr.radstar.engine.components.Transform",
-			"params" : [
-				0.0,
-				0.0
-			]
+			"className" : "com.angrysquirrels.engine.components.Transform",
+			"scaleX" : 0.2,
+			"scaleY" : 0.2
 		},
 		{
-			"className" : "behaviours.Test",
-			"params" : [
-			]
+			"className" : "behaviours.Test"
 		},
 		{
-			"className" : "fr.radstar.engine.components.DisplayView",
-			"params" : [
-				"assets/bitmaps/shipBlue_manned.png",
-				"world"
-			]
+			"className" : "com.angrysquirrels.engine.components.SpriteView",
+			"spriteSheet" : "assets/spritesheets/square_outline",
+			"sprite" : "pig.png",
+			"layer" : "Test"
 		}
     ]
 }

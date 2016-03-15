@@ -1,6 +1,6 @@
 package behaviours;
 
-import fr.radstar.engine.components.Transform;
+import com.angrysquirrels.engine.components.Transform;
 import edge.Behaviour;
 
 /**

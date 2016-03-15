@@ -1,9 +1,18 @@
 {
-  "firstScene" : "assets/scenes/a.json",
-  "systems" : [
+	"systems" : [
 		{
-			"classPath" : "fr.radstar.engine.systems.DisplayListRenderer",
-			"type" : "render"
+			"classPath" : "com.angrysquirrels.engine.systems.BatchRenderer",
+			"type" : "render",
+			"layers" : [
+				"Test"
+			]
 		}
-	]
+	],
+	"scenes" : [
+		{
+			"name" : "A",
+			"path" : "assets/scenes/a.json"
+		}
+	],
+	"firstScene" : "A"
 }

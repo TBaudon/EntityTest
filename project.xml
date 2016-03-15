@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
-
 	<meta title="EntityTest" package="com.sample.entitytest" version="1.0.0" company="Company Name" />
-	<app main="fr.radstar.Game" path="Export" file="EntityTest" />
-
-	<source path="sources" />
-	<haxeflag name="--macro include('behaviours', true)" />
-
+	
 	<window background="#62367d" fps="60" />
+	
+	<set name="EntitySystem" />
+	
+	<source path="sources" />
 
-	<haxelib name="radgames" />
-
+	<haxelib name="squirrel-engine" />
+	
 	<assets path="assets" />
 
+	<haxeflag name="--macro include('behaviours', true)" />
 </project>
