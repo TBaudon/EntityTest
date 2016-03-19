@@ -6,7 +6,7 @@
 	
 	<set name="EntitySystem" />
 	
-	<source path="sources" />
+	<source path="Sources" />
 
 	<haxelib name="squirrel-engine" />
 	
